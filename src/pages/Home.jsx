@@ -17,12 +17,14 @@ function HeroSection() {
 
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('/images/robe-francaise.jpg')`,
-          filter: 'brightness(0.75)',
-        }}
-      />
+  className="absolute inset-0"
+  style={{
+    backgroundImage: `url('/images/robe-francaise.jpg')`,
+    backgroundSize: 'cover',
+    backgroundPosition: '50% 20%',
+    filter: 'brightness(0.75)',
+  }}
+/>
 
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
