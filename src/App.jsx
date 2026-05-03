@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import RootLayout from './components/layout/RootLayout'
 import Home from './pages/Home'
 import Collection from './pages/Collection'
+import About from './pages/About'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
         <Route path="collection" element={<Collection />} />
+        <Route path="about" element={<About />} />
       </Route>
     </Routes>
   )
