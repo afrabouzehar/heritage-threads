@@ -18,17 +18,19 @@ export default function Collection() {
     <div className="max-w-6xl mx-auto px-6 py-16 min-h-screen">
 
       {/* Page header */}
-      <div className="mb-12 border-b border-border pb-10">
-        <p className="text-[11px] tracking-[0.3em] uppercase text-muted mb-3">
-          Digital Archive
-        </p>
-        <h1 className="font-serif text-5xl text-ink">The Collection</h1>
-        <p className="mt-4 text-muted max-w-xl leading-relaxed">
-          {garments.length} garments spanning two centuries of European dress.
-          Filtered by category, ordered by decade.
-        </p>
-      </div>
-
+<div className="mb-16 pb-12 border-b border-border">
+  <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+    <div>
+      <p className="text-[11px] tracking-[0.3em] uppercase text-muted mb-4">
+        Digital Archive · European Dress
+      </p>
+      <h1 className="font-serif text-6xl text-ink">The Collection</h1>
+    </div>
+    <p className="text-muted text-sm max-w-xs leading-relaxed md:text-right">
+      Two centuries of dress from the courts and salons of early modern Europe.
+    </p>
+  </div>
+</div>
       {/* Filter bar */}
       <div className="mb-10">
         <FilterBar active={activeFilter} onChange={setActiveFilter} />
