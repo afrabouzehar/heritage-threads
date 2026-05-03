@@ -10,7 +10,7 @@ export const garments = [
     material: "Silk brocade, linen lining",
     collection: "Victoria & Albert Museum",
     description: "Characterized by distinctive back pleats falling loosely from the neckline, this gown exemplifies the extravagance of French court dress. The sack-back silhouette dominated aristocratic fashion for over four decades.",
-    image: "./public/images/robe-francaise.jpg",
+    image: "/images/robe-francaise.jpg",
     tags: ["court dress", "silk", "pleats", "French"],
   },
   {
@@ -24,7 +24,7 @@ export const garments = [
     material: "Wool broadcloth, gold embroidery",
     collection: "Musée des Arts Décoratifs",
     description: "The justaucorps was the defining garment of male aristocratic dress under Louis XIV. Heavily embroidered at the cuffs, pockets, and front opening, it signalled rank and allegiance at Versailles.",
-    image: "./public/images/justaucorps.jpg",
+    image: "/images/justaucorps.jpg",
     tags: ["Versailles", "embroidery", "wool", "Louis XIV"],
   },
   {
@@ -38,7 +38,7 @@ export const garments = [
     material: "Silk damask",
     collection: "Victoria & Albert Museum",
     description: "The mantua emerged as an informal alternative to the stiff-bodiced gown, draped and pinned rather than sewn. By the 1690s it had become the standard formal dress for women across Europe.",
-    image: "./public/images/mantua.jpg",
+    image: "/images/mantua.jpg",
     tags: ["draped", "silk", "English court", "informal"],
   },
   {
@@ -52,7 +52,7 @@ export const garments = [
     material: "Printed cotton chintz",
     collection: "Colonial Williamsburg",
     description: "Worn as informal deshabille by educated gentlemen, the banyan reflected the era's fascination with the East. Philosophers and merchants were painted in banyans to signal intellect over ceremony.",
-    image: "./public/images/banyan.jpg",
+    image: "/images/banyan.jpg",
     tags: ["informal", "cotton", "Eastern influence", "intellectual"],
   },
   {
@@ -66,7 +66,7 @@ export const garments = [
     material: "Striped silk taffeta",
     collection: "Metropolitan Museum of Art",
     description: "Distinguished by its skirt looped up in three sections to reveal a decorative petticoat beneath, the polonaise offered greater freedom of movement than earlier court styles — a hint of the coming revolution in dress.",
-    image: "./public/images/robe-polonaise.jpg",
+    image: "/images/robe-polonaise.jpg",
     tags: ["taffeta", "looped skirt", "petticoat", "movement"],
   },
   {
@@ -80,7 +80,7 @@ export const garments = [
     material: "Silk satin, metallic thread",
     collection: "Museum of London",
     description: "The stomacher was a heavily embroidered panel pinned to the front of a bodice, functioning as both structural support and display of needlework skill. It was often the most expensive element of a woman's dress.",
-    image: "./public/images/stomacher.jpg",
+    image: "/images/stomacher.jpg",
     tags: ["embroidery", "bodice", "metallic", "accessory"],
   },
 ]
