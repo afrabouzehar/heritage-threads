@@ -15,14 +15,14 @@ function HeroSection() {
 
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-40"
+        className="absolute inset-0 bg-cover bg-center opacity-55"
         style={{
-          backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Robe_%C3%A0_la_fran%C3%A7aise_MET_DT773.jpg/800px-Robe_%C3%A0_la_fran%C3%A7aise_MET_DT773.jpg')`,
+          backgroundImage: `url('https://images.metmuseum.org/CRDImages/ci/original/DP251139.jpg')`,
         }}
       />
 
       {/* Gradient overlay — bottom to top */}
-      <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-ink/10" />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 pb-20 w-full">
