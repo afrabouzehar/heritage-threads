@@ -10,7 +10,7 @@ export const garments = [
     material: "Silk brocade, linen lining",
     collection: "Victoria & Albert Museum",
     description: "Characterized by distinctive back pleats falling loosely from the neckline, this gown exemplifies the extravagance of French court dress. The sack-back silhouette dominated aristocratic fashion for over four decades.",
-    image: "./public/images/robe_francaise.jpg",
+    image: "./public/images/robe-francaise.jpg",
     tags: ["court dress", "silk", "pleats", "French"],
   },
   {
