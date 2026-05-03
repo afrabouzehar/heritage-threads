@@ -1,8 +1,16 @@
+import { Routes, Route } from 'react-router-dom'
+import RootLayout from './components/layout/RootLayout'
+import Home from './pages/Home'
+import Collection from './pages/Collection'
+
 function App() {
   return (
-    <div className="min-h-screen bg-parchment flex items-center justify-center">
-      <h1 className="font-serif text-5xl text-ink">The Archive</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />
+        <Route path="collection" element={<Collection />} />
+      </Route>
+    </Routes>
   )
 }
 
