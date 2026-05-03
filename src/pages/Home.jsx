@@ -29,7 +29,7 @@ function HeroSection() {
 
       {/* Top left label */}
       <div className="absolute top-8 left-8 z-10">
-        <p className="text-[10px] tracking-[0.4em] uppercase text-white/50">
+        <p className="text-[10px] tracking-[0.4em] uppercase text-white/40">
           Est. 17th Century · Digital Archive
         </p>
       </div>
@@ -41,9 +41,6 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut' }}
         >
-          <p className="text-[11px] tracking-[0.35em] uppercase text-white/50 mb-5">
-            Heritage Threads · Collection Archive
-          </p>
 
           <h1 className="font-serif text-6xl md:text-8xl text-white leading-[1.05] max-w-4xl">
             Dress as a<br />record of power.
