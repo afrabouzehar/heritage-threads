@@ -9,7 +9,7 @@ export default function Footer() {
           A digital archive of 17th &amp; 18th century dress
         </p>
         <p className="text-xs text-muted">
-          © {new Date().getFullYear()}
+          © {new Date().getFullYear()}by Afra BOUZEHAR. All rights reserved.
         </p>
       </div>
     </footer>
