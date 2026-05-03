@@ -3,6 +3,7 @@ import RootLayout from './components/layout/RootLayout'
 import Home from './pages/Home'
 import Collection from './pages/Collection'
 import About from './pages/About'
+import Timeline from './pages/Timeline'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="collection" element={<Collection />} />
         <Route path="about" element={<About />} />
+        <Route path="timeline" element={<Timeline />} />
       </Route>
     </Routes>
   )
