@@ -19,7 +19,7 @@ function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('/images/robe_francaise.jpg')`,
+          backgroundImage: `url('/images/robe-francaise.jpg')`,
           filter: 'brightness(0.75)',
         }}
       />
