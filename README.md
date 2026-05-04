@@ -45,7 +45,7 @@ catalogue than a typical web app.
 ---
 
 ## Project Structure
-
+```
 heritage-threads/
 ├── public/
 │   └── images/
@@ -83,7 +83,7 @@ heritage-threads/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ---
 
 ## Design System
