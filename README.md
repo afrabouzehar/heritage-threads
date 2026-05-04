@@ -108,7 +108,7 @@ the aesthetic of printed museum catalogues.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/heritage-threads.git
+git clone https://github.com/afrabouzehar/heritage-threads.git
 cd heritage-threads
 
 # Install dependencies
@@ -182,6 +182,4 @@ npm run preview
 
 ## License
 
-© 2026 Afra. All rights reserved.  
-This project is not open source. Do not copy, redistribute, 
-or reuse any part of this codebase or design without explicit permission.
+MIT — free to use, adapt, and build upon with attribution.
