@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
@@ -110,12 +111,12 @@ export default function About() {
             {' '}6 garments currently archived.
           </p>
         </div>
-        <a
-          href="/Collection"
-          className="text-[11px] tracking-[0.3em] uppercase border border-ink text-ink px-8 py-4 hover:bg-ink hover:text-parchment transition-all duration-300"
-        >
-          View Collection
-        </a>
+<Link
+  to="/collection"
+  className="text-[11px] tracking-[0.3em] uppercase border border-ink text-ink px-8 py-4 hover:bg-ink hover:text-parchment transition-all duration-300"
+>
+  View Collection
+</Link>
       </motion.div>
 
     </div>
