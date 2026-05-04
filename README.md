@@ -46,27 +46,43 @@ catalogue than a typical web app.
 
 ## Project Structure
 
-src/
-├── components/
-│   ├── layout/
-│   │   ├── Navbar.jsx        # Persistent nav with active link state
-│   │   ├── Footer.jsx        # Archive footer
-│   │   └── RootLayout.jsx    # Layout shell with Outlet
-│   └── ui/
-│       ├── GarmentCard.jsx   # Card with hover overlay and animations
-│       ├── FilterBar.jsx     # Category filter chips
-│       └── GarmentModal.jsx  # Slide-in detail panel
-├── pages/
-│   ├── Home.jsx              # Hero + featured section + stats
-│   ├── Collection.jsx        # Filtered gallery
-│   ├── Timeline.jsx          # Chronological era view
-│   └── About.jsx             # Archive mission and context
-├── data/
-│   └── garments.js           # Structured garment data (mock API)
-├── hooks/                    # Custom hooks (reserved)
-└── utils/                    # Utility functions (reserved)
-public/
-└── images/                   # Local garment photography
+heritage-threads/
+├── public/
+│   └── images/
+│       ├── robe-francaise.jpg
+│       ├── justaucorps.jpg
+│       ├── mantua.jpg
+│       ├── banyan.jpg
+│       ├── robe-polonaise.jpg
+│       └── stomacher.jpg
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── RootLayout.jsx
+│   │   └── ui/
+│   │       ├── GarmentCard.jsx
+│   │       ├── FilterBar.jsx
+│   │       └── GarmentModal.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Collection.jsx
+│   │   ├── Timeline.jsx
+│   │   └── About.jsx
+│   ├── data/
+│   │   └── garments.js
+│   ├── hooks/
+│   ├── utils/
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── .vscode/
+│   └── settings.json
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
 ---
 
